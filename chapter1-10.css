@@ -1,0 +1,113 @@
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+.header{
+  width:auto;
+  height:50px;
+  background-color: #FF9A4B;
+}
+.step123box{
+  width:960px;
+  height:auto;
+  padding:50px;
+  display: flex;
+}
+.step1-item{
+  width:300px;
+  height: 300px;
+  padding-right: 30px;
+  background-color: #EEEEEE;
+  box-sizing: border-box;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.step1-image{
+  width:300px;
+  height:150px;
+  padding:10px 10px;
+}
+.step1-text-heading{
+  margin-top:5px;
+  margin-bottom:5px;
+  padding-left: 10px
+}
+.step1-text{
+  font-size: 11px;
+  padding-left:10px;
+}
+.log1{
+ background-color:#FF9A4B;
+ color:#FFF;
+ position: relative
+}
+.step2-item{
+  width:300px;
+  height: 300px;
+  padding-right: 30px;
+  background-color: #EEEEEE;
+  box-sizing: border-box;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.step2-image{
+  width:300px;
+  height:150px;
+  padding:10px 10px;
+  box-sizing: border-box;
+}
+.step2-text-heading{
+  margin-top:5px;
+  margin-bottom:5px;
+  padding-left: 10px
+}
+.step2-text{
+  font-size: 11px;
+  padding-left:10px;
+}
+.log2{
+ background-color:#FF9A4B;
+ color:#FFF;
+ position: absolute
+}
+.step3-item{
+  width:300px;
+  height: 300px;
+  padding-right: 30px;
+  background-color: #EEEEEE;
+  box-sizing: border-box;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.step3-image{
+  width:300px;
+  height:150px;
+  padding:10px 10px;
+  box-sizing: border-box;
+}
+.step3-text-heading{
+  margin-top:5px;
+  margin-bottom:5px;
+  padding:10px;
+}
+.step3-text{
+  font-size: 11px;
+  padding-left:10px;
+}
+.log3{
+ background-color:#FF9A4B;
+ color:#FFF;
+ position: absolute
+}
+
+
+
+
+.footer{
+  width:auto;
+  height:50px;
+  background-color: #AAAAAA;
+}
