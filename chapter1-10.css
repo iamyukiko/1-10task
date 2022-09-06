@@ -106,16 +106,22 @@
 .log3{
  background-color:#FF9A4B;
  color:#FFF;
- position: absolute;
+position: absolute;
  top:0px;
  left:0px;
 }
-
-
-
 
 .footer{
   width:auto;
   height:50px;
   background-color: #AAAAAA;
 }
+
+@media screen and (max-width: 768px) {
+  .header{
+    width: 100%;
+  }
+  .step123box{
+    width:100%;
+    display: block;
+  }
