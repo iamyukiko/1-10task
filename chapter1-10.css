@@ -12,8 +12,7 @@
 }
 .step123box{
   width:960px;
-  height:auto;
-  padding:50px;
+  margin:50px auto;
   display: flex;
 }
 .step1-item{
@@ -24,6 +23,7 @@
   box-sizing: border-box;
   margin-right: 30px;
   margin-left: 30px;
+  position: relative;
 }
 .step1-image{
   width:300px;
@@ -42,7 +42,9 @@
 .log1{
  background-color:#FF9A4B;
  color:#FFF;
- position: relative
+ position: absolute;
+ top:0px;
+ left:0px;
 }
 .step2-item{
   width:300px;
@@ -52,6 +54,7 @@
   box-sizing: border-box;
   margin-right: 30px;
   margin-left: 30px;
+  position: relative;
 }
 .step2-image{
   width:300px;
@@ -71,7 +74,9 @@
 .log2{
  background-color:#FF9A4B;
  color:#FFF;
- position: absolute
+ position: absolute;
+ top:0px;
+ left:0px;
 }
 .step3-item{
   width:300px;
@@ -81,6 +86,7 @@
   box-sizing: border-box;
   margin-right: 30px;
   margin-left: 30px;
+  position: relative;
 }
 .step3-image{
   width:300px;
@@ -91,7 +97,7 @@
 .step3-text-heading{
   margin-top:5px;
   margin-bottom:5px;
-  padding:10px;
+  padding-left:10px;
 }
 .step3-text{
   font-size: 11px;
@@ -100,7 +106,9 @@
 .log3{
  background-color:#FF9A4B;
  color:#FFF;
- position: absolute
+ position: absolute;
+ top:0px;
+ left:0px;
 }
 
 
